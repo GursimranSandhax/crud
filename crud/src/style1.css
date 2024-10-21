@@ -1,0 +1,127 @@
+/* Basic Page Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 2rem;
+  background-color: #0B4F56; /* Example: Dark Teal */
+  color: #F2F0EB;
+}
+
+/* Header Styling */
+.scp-entry {
+  background-color: #382A27; /* Example: Deep Brown */
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+/* Headings */
+h1 {
+  color: #D99E36; /* Example: Desaturated Orange */
+  text-align: center;
+}
+
+h2, h3 {
+  color: #F2F0EB;
+  border-bottom: 1px solid #D99E36;
+}
+
+/* Navigation (SCP List) Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #0eccee;
+  border-radius: 5px;
+  overflow-y: auto; /* Enable vertical scroll */
+  width: 20%;
+  height: 600px; /* Set a fixed height */
+  float: left;
+  margin-right: 2rem;
+}
+
+li a {
+  display: block;
+  color: #333;
+  padding: 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+}
+
+li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Image Styling */
+img {
+  width: 500px;  /* Set fixed width */
+  height: 500px; /* Set fixed height */
+  object-fit: cover;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(83, 212, 245, 0.1);
+}
+
+/* Footer Styling */
+.footer {
+  clear: both;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+a {
+  color: #D99E36;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Code Snippets */
+code {
+  background-color: #1E1E1E;
+  padding: 2px 5px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  body {
+      margin: 1rem;
+  }
+
+  ul {
+    width: 650px;  /* Set fixed width */
+    height: 450px; /* Set fixed height */
+      float: none;
+      margin-bottom: 2rem;
+  }
+
+  .content {
+      width: 100%;
+      float: none;
+  }
+
+  img {
+      
+    width: 500px;  /* Set fixed width */
+    height: 500px; /* Set fixed height */
+  }
+
+  .scp-entry {
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  h2, h3 {
+      font-size: 1.2rem;
+  }
+}
+
